@@ -1,16 +1,31 @@
 {
-  "name": "wxpay",
-  "description": "wechat pay by nodejs",
-  "version": "0.0.1",
-  "private": false,
-  "dependencies": {
-    "bluebird": "^2.9.14",
-    "moment": "^2.9.0",
-    "urlencode": "^0.2.0",
-    "xml2js": "^0.4.8"
-  },
-  "devDependencies": {
-    "debug": "^2.1.3",
-    "should": "^5.2.0"
-  }
+	"name": "wxpay",
+	"description": "wechat pay by nodejs",
+	"version": "0.0.2",
+	"private": false,
+	"dependencies": {
+		"bluebird": "^2.9.14",
+		"moment": "^2.9.0",
+		"urlencode": "^0.2.0",
+		"xml2js": "^0.4.8"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lonso/wxpay"
+	},
+	"keywords": [
+		"weixin",
+		"wxpay",
+		"pay"
+	],
+	"author": "lonso <lonso@foxmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lonso/wxpay/issues"
+	},
+	"homepage": "https://github.com/lonso/wxpay",
+	"devDependencies": {
+		"debug": "^2.1.3",
+		"should": "^5.2.0"
+	}
 }
